@@ -513,7 +513,7 @@ module Plivo
   class GetSpeech
     extend Plivo::Element::ClassMethods
     include Plivo::Element
-    attributes :action, :method, :timeout, :playBeep, :engine, :grammar
+    attributes :action, :method, :timeout, :playBeep, :engine, :grammar, :grammarPath
     allowed_element :play, :speak, :wait
   end
 
