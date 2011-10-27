@@ -39,7 +39,7 @@ end
 
 print result
 
-if false:
+if false
     sleep(10)
     # Hangup a call using a HTTP POST
     hangup_call_params = {
