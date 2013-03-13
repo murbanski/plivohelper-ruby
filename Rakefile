@@ -3,7 +3,7 @@ require 'rake/gempackagetask'
 
 spec = Gem::Specification.new do |s|
   s.name = "plivohelper"
-  s.version = "0.1"
+  s.version = "0.2"
   s.author = "Team Plivo"
   s.email = "hello@plivo.org"
   s.homepage = "http://www.plivo.org"

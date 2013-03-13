@@ -306,7 +306,7 @@ module Plivo
       uri = URI.parse(url)
 
       http = Net::HTTP.new(uri.host, uri.port)
-      #http.use_ssl = true
+      http.use_ssl = uri.kind_of?(URI::HTTPS)
 
       if method && method == 'GET'
         req = Net::HTTP::Get.new(uri.request_uri)
