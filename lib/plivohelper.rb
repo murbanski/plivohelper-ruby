@@ -506,7 +506,7 @@ module Plivo
   class GetDigits
     extend Plivo::Element::ClassMethods
     include Plivo::Element
-    attributes :action, :method, :timeout, :finishOnKey, :numDigits, :retries, :playBeep, :validDigits, :invalidDigitsSound
+    attributes :action, :method, :timeout, :finishOnKey, :numDigits, :retries, :playBeep, :validDigits, :invalidDigitsSound, :digitTimeout
     allowed_element :play, :speak, :wait
   end
 
